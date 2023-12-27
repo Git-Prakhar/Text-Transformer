@@ -1,0 +1,36 @@
+#navbar{
+    height: 60px;
+}
+
+#navheading{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+    background-color: rgb(199, 228, 253);
+}
+
+#navheading div{
+    display: flex;
+    gap:20px;
+    font-size: 1.3rem;
+}
+
+#navheading div a{
+    text-decoration: none;
+    color:rgb(98, 186, 241);
+    font-weight: bold;
+}
+
+#homehead{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(252, 251, 221);
+}
